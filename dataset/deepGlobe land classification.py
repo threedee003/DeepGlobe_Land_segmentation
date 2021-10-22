@@ -4,8 +4,7 @@
 
  Date : 22.10.2021
 
- This notebook explores the dataset of the Deep Globe challenge by CVPR in 2018 (http://deepglobe.org/) in segmentation tasks of satellite images of earth.
-"""
+ """
 
 import numpy as np
 import matplotlib.pyplot as plt
