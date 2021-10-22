@@ -21,7 +21,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader,Dataset
 import albumentations as alb
 
-data_dir = r'A:\deepGlobe'
+data_dir = r'Data directory path'
 metadata_df = pd.read_csv(os.path.join(data_dir,'metadata.csv'))
 metadata_df = metadata_df[metadata_df['split']=='train']
 metadata_df = metadata_df[['image_id', 'sat_image_path', 'mask_path']]
